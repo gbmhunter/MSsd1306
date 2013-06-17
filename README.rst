@@ -5,7 +5,7 @@ Solomon SSD1306 128x64 OLED Controller Driver
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/01/25
 - Last Modified: 2013/06/17
-- Version: v2.0.0.0
+- Version: v2.0.1.0
 - Company: CladLabs
 - Project: Open-source Embedded Code Libraries
 - Language: C++
@@ -115,6 +115,7 @@ Changelog
 ======== ========== =============================================================================================================================
 Version  Date       Comment
 ======== ========== =============================================================================================================================
+v2.0.1.0 2013/06/17 Renamed file extensions to .cpp/.hpp.
 v2.0.0.0 2013/06/17 Added code to repository (in 'src' directory). First versioned commit.
 v1.0.1.0 2012/12/14 Continuing development. Added multiple-byte command write function. Debugged existing functions. Added Doxygen comments.
 v1.0.0.0 2012/02/24 Modified existing c file provided by WiseChip. Added header file, made this file specific to the controller, not OLED screen. 
