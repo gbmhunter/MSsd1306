@@ -1,24 +1,12 @@
 //!
-//! @file 		SSD1306.c
-//! @author 	Geoffrey Hunter <gbmhunter@gmail.com>
-//! @edited 	n/a
-//! @date 		25/01/2012
-//! @brief 		Driver for the SDD1306 OLED segment/common controller.
+//! @file 				Ssd1306.cpp
+//! @author 			Geoffrey Hunter <gbmhunter@gmail.com> (www.cladlab.com)
+//! @edited 			n/a
+//! @created			2012/01/25
+//! @last-modified 	2014/01/14
+//! @brief 				Driver for the SDD1306 OLED segment/common controller.
 //! @details
-//!		<b>Last Modified:			</b> 14/12/2012					\n
-//!		<b>Version:					</b> v1.0.1						\n
-//!		<b>Company:					</b> Beta Solutions				\n
-//!		<b>Project:					</b> Procreate: Trial Frames	\n
-//!		<b>Language:				</b> C							\n
-//!		<b>Computer Architecture:	</b> 8051						\n
-//!		<b>Compiler:				</b> Keil						\n
-//! 	<b>uC Model:				</b> PSoC3						\n
-//! 	<b>Operating System:		</b> n/a						\n
-//!		<b>Documentation Format:	</b> Doxygen					\n
-//!		<b>License:					</b> OLP						\n
-//!
-//! See SSD1306.h for more information.
-//!
+//!						See the README in the repo root dir for more info.
 
 //===============================================================================================//
 //========================================== INCLUDES ===========================================//
@@ -58,9 +46,6 @@ extern "C" {
 #ifndef configDEBUG_SSD1306_VERBOSE
 	#error Please define the switch configDEBUG_SSD1306_VERBOSE
 #endif
-	
-
-
 	
 
 namespace SSD1306Ns

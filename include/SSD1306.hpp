@@ -1,11 +1,12 @@
 //!
-//! @file 		SSD1306.h
-//! @author 	Geoffrey Hunter <gbmhunter@gmail.com>
-//! @edited 	n/a
-//! @date 		04/10/2012
-//! @brief 		Driver for the SDD1306 OLED segment/common controller.
+//! @file 				Ssd1306.h
+//! @author 			Geoffrey Hunter <gbmhunter@gmail.com> (www.cladlab.com)
+//! @edited 			n/a
+//! @created			2012/10/04
+//! @last-modified 	2014/01/14
+//! @brief 				Driver for the SDD1306 OLED segment/common controller.
 //! @details
-//!				See README.rst.
+//!						See the README in the repo root dir for more info.
 
 //===============================================================================================//
 //======================================= HEADER GAURD ==========================================//

@@ -1,16 +1,16 @@
 //!
-//! @file 		Port.h
-//! @author 	Geoffrey Hunter <gbmhunter@gmail.com>
-//! @edited 	n/a
-//! @date 		04/10/2012
-//! @brief 		Contains port specific functions for the SSD1306 library.
+//! @file 				Port.hpp
+//! @author 			Geoffrey Hunter <gbmhunter@gmail.com> (www.cladlab.com)
+//! @edited 			n/a
+//! @created			2012/10/04
+//! @last-modified 	2014/01/14
+//! @brief 				Contains port specific functions for the SSD1306 library.
 //! @details
-//!
+//!						See the README in the repo root dir for more info.
 
 //===============================================================================================//
 //======================================= HEADER GAURD ==========================================//
 //===============================================================================================//
-
 
 // Header guard 
 #ifndef PORT_H

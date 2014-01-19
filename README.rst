@@ -9,7 +9,7 @@ Solomon SSD1306 128x64 OLED Controller Driver
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/01/25
 - Last Modified: 2014/01/20
-- Version: v2.1.0.0
+- Version: v2.1.1.0
 - Company: CladLabs
 - Project: Open-source Embedded Code Libraries
 - Language: C++
@@ -36,11 +36,10 @@ This driver has functions to automatically set up SSD1306 into common configurat
 ::
 
 	// Initialises OLED screen when Vcc is supplied internally.
-	OledInitVccInt();
+	mySsd1306.OledInitVccInt();
 
 	// Initialises OLED screen when Vcc is supplied externally.
-	OledInitVccExt();
-	
+	mySsd1306.OledInitVccExt();
 	
 
 Pixel 0,0 is in the top corner of the side with FPC connector
@@ -119,6 +118,7 @@ Changelog
 ======== ========== =============================================================================================================================
 Version  Date       Comment
 ======== ========== =============================================================================================================================
+v2.1.1.0 2013/01/20 Added object reference to code examples in README. Updated comment blocks at the top of code files.
 v2.1.0.0 2014/01/20 Renamed project from 'Cpp-SSD1306' to 'ssd1306-cpp' (following new project naming convention). Fixed .h/.c references to .hpp/.cpp. Moved '/src/include' files to 'include/' to follow new folder layout convention.
 v2.0.1.0 2013/06/17 Renamed file extensions to .cpp/.hpp.
 v2.0.0.0 2013/06/17 Added code to repository (in 'src' directory). First versioned commit.
