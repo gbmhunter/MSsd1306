@@ -1,17 +1,17 @@
-===========
-ssd1306-cpp
-===========
+========
+MSsd1306
+========
 
 ---------------------------------------------
 Solomon SSD1306 128x64 OLED Controller Driver
 ---------------------------------------------
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
-- Created: 2012/01/25
-- Last Modified: 2014/01/20
-- Version: v2.1.2.0
-- Company: CladLabs
-- Project: Open-source Embedded Code Libraries
+- Created: 2012-01-25
+- Last Modified: 2014-11-01
+- Version: v3.0.0.0
+- Company: mbedded.ninja
+- Project: MToolkit modules
 - Language: C++
 - Compiler: GCC	
 - uC Model: n/a
@@ -115,14 +115,15 @@ Usage
 Changelog
 =========
 
-======== ========== =============================================================================================================================
-Version  Date       Comment
-======== ========== =============================================================================================================================
-v2.1.2.0 2014/01/20 Renamed 'SSD1306' files to 'Ssd1306', to follow convention.
-v2.1.1.0 2014/01/20 Added object reference to code examples in README. Updated comment blocks at the top of code files.
-v2.1.0.0 2014/01/20 Renamed project from 'Cpp-SSD1306' to 'ssd1306-cpp' (following new project naming convention). Fixed .h/.c references to .hpp/.cpp. Moved '/src/include' files to 'include/' to follow new folder layout convention.
-v2.0.1.0 2013/06/17 Renamed file extensions to .cpp/.hpp.
-v2.0.0.0 2013/06/17 Added code to repository (in 'src' directory). First versioned commit.
-v1.0.1.0 2012/12/14 Continuing development. Added multiple-byte command write function. Debugged existing functions. Added Doxygen comments.
-v1.0.0.0 2012/02/24 Modified existing c file provided by WiseChip. Added header file, made this file specific to the controller, not OLED screen. 
-======== ========== =============================================================================================================================
+========= ========== =============================================================================================================================
+Version   Date       Comment
+========= ========== =============================================================================================================================
+v3.0.0.0  2014-11-01 Renamed module from ssd1306-cpp to MSsd1306, closes #21. Fixed up class names accordingly. Added API file, closes #22.
+v2.1.2.0  2014-01-20 Renamed 'SSD1306' files to 'Ssd1306', to follow convention.
+v2.1.1.0  2014-01-20 Added object reference to code examples in README. Updated comment blocks at the top of code files.
+v2.1.0.0  2014-01-20 Renamed project from 'Cpp-SSD1306' to 'ssd1306-cpp' (following new project naming convention). Fixed .h/.c references to .hpp/.cpp. Moved '/src/include' files to 'include/' to follow new folder layout convention.
+v2.0.1.0  2013-06-17 Renamed file extensions to .cpp/.hpp.
+v2.0.0.0  2013-06-17 Added code to repository (in 'src' directory). First versioned commit.
+v1.0.1.0  2012-12-14 Continuing development. Added multiple-byte command write function. Debugged existing functions. Added Doxygen comments.
+v1.0.0.0  2012-02-24 Modified existing c file provided by WiseChip. Added header file, made this file specific to the controller, not OLED screen. 
+========= ========== =============================================================================================================================
