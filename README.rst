@@ -6,10 +6,10 @@ MSsd1306
 Solomon SSD1306 128x64 OLED Controller Driver
 ---------------------------------------------
 
-- Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
+- Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2012-01-25
-- Last Modified: 2014-11-01
-- Version: v3.0.0.0
+- Last Modified: 2014-11-10
+- Version: v3.0.0.1
 - Company: mbedded.ninja
 - Project: MToolkit modules
 - Language: C++
@@ -118,6 +118,7 @@ Changelog
 ========= ========== =============================================================================================================================
 Version   Date       Comment
 ========= ========== =============================================================================================================================
+v3.0.0.1  2014-11-10 Changed URL in README from cladlab.com to mbedded.ninja, closes #23.
 v3.0.0.0  2014-11-01 Renamed module from ssd1306-cpp to MSsd1306, closes #21. Fixed up class names accordingly. Added API file, closes #22.
 v2.1.2.0  2014-01-20 Renamed 'SSD1306' files to 'Ssd1306', to follow convention.
 v2.1.1.0  2014-01-20 Added object reference to code examples in README. Updated comment blocks at the top of code files.
